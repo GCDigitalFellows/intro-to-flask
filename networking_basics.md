@@ -2,11 +2,11 @@
 
 Computers on the internet have addresses that allow them to be found. These numbers are called IP addresses, and look something like this:
 
-173.194.205.100
-31.13.76.68
-128.228.38.47
+173.194.205.100  
+31.13.76.68  
+128.228.38.47  
 
-See if you can figure out who these IP addresses belong to. Try copying them out and pasting them in the URL bar in your browser.
+See if you can figure out who these IP addresses belong to by copying them out and pasting them in the URL bar in your browser.
 
 The domain names we're familiar with, like google.com, are like masks. They cover these unfriendly-looking numbers, making them easier for humans to read and remember. A complicated mapping system called DNS is responsible for resolving domain names into IPs and vice versa.
 

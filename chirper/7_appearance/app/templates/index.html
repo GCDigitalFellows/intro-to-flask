@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 style="display:inline">Chirper</h1>
+    <p style="display:inline;font-style:italic">&nbsp;&nbsp;highly original social media sensation.</p>
+    <h3>Recent chirps</h3>
+    {% for chirp in chirps %}
+    <div style="padding-top:5px;padding-left:10px;padding-right:10px;border-color: #add8e6; border-style: solid">
+    <p>Chirped by {{ chirp.user }} at {{ chirp.time }}:<br>
+    {{ chirp.text }}</p>
+    </div>
+    {% endfor %}
+{% endblock %}
+  
+

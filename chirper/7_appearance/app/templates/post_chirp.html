@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form method="post">
+  <p>Your name:
+    <input type="text" name="username"></p>
+  <p>What's transpiring?:<br><br>
+    <input type="text" style="width: 600px; height: 200px";" name="chirptext"><br><br>
+    <input type="submit" value="submit">
+</form>
+{% endblock %}

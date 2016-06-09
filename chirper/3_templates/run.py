@@ -1,4 +1,9 @@
 # Using templates to render pages
+# Instead of putting a bunch of HTML into our views,
+# we can put the HTML in another file and use a
+# special syntax to fill in the blanks
+
+# Have a look in the "templates" folder in teh app/ directory
 
 from flask import Flask, render_template
 

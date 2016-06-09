@@ -13,6 +13,3 @@ Most web frameworks are conscious of the model, view, controller paradigm. Inthe
 ### What happened to PHP?
 
 PHP is still going strong, and you can still use it to create web applications. Facebook was written in PHP, as were WordPress and Drupal. As a programming language, however, PHP has some unresolved problems, and frameworks in scripting languages such as Python, Ruby, and Javascript are becoming increasingly popular. 
-
-
-[Next >>> Our first view](view.md)

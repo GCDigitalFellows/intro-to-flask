@@ -1,3 +1,5 @@
+# The simplest possible Flask program
+
 # import Flask
 from flask import Flask
 
@@ -14,7 +16,7 @@ app.config["DEBUG"] = True
 # activate when particular URLs are visited.
 # They return text or HTML that will be displayed.
 @app.route("/")
-def greetings():
+def index():
     return "This is my first Flask program"
 
 # This runs the server.

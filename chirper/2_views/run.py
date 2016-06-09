@@ -5,6 +5,9 @@ from flask import Flask
 app = Flask(__name__)
 
 app.config["DEBUG"] = True
+
+# Now we need a config that points to the folder
+# with our images and othe rstatic files
 app.config["STATIC_FOLDER"] = 'static'
 
 # The "/" and "index.html" are the URLs that will be handled
